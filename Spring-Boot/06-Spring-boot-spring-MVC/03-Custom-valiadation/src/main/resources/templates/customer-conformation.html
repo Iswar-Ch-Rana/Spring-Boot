@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Conformation</title>
+</head>
+<body>
+<h3>Conformation Page</h3>
+First Name : <span th:text="${customer.firstName +' '+ customer.lastName }"></span>
+<br><br>
+Course Code : <span th:text="${customer.courseCode}"></span>
+<br><br>
+</body>
+</html>
